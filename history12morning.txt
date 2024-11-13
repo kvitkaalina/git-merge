@@ -1,0 +1,20 @@
+   47  git clone git@github.com:kvitkaalina/git-merge.git
+   48  ls
+   49  cd git-merge
+   50  ls -a
+   51  git checkout -b feature
+   52  git brahch
+   53  git branch
+   54  echo 'Hello' > README.md 
+   55  ls
+   56  echo 'Hello' >> .gitignore 
+   57  git add .
+   58  git status
+   59  git commit -m
+   60  git commit -m 'Files'
+   61  git push -u origin feature 
+   62  git commit --amend -m 'Files ammend' 
+   63  git push --force
+   64  git checkout main
+   65  git merge feature 
+   66  history | tail -n 20 > history12morning.txt
